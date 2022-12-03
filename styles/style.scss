@@ -3,15 +3,80 @@
 /*IMPORTANTE TRAER PRIMERO VARIABLES*/
 
 @import "./utilities/colors";
-@import "./utilities/sizes";
 @import "./utilities/mixin";
 @import "./utilities/responsive";
 
 /*DESPUES DE LAS VARIABLES TRAEMOS LOS BLOQUES*/
 
-@import "./blocks/clase";
-@import "./blocks/pepito";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+ }
+
+ .menu-principal{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #541554;
+
+ }
+
+/*PRIMER ENCABEZADO DOBLE*/
+ .header-principal{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #541554;
+
+    &_texto{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        &--titulo{
+            color: white;
+            font-size: 44px;
 
 
+        }
+        &--párrafo{
+            color: white;
+            padding-bottom: 40px;
+            font-size: 16px;
+        }
+        &--boton{
+            color: #541554;
+            width: 90%;
+            padding: 20px;
+        }  
+    }
+
+    &_image{
+        &--foto{
+            width: 100%;
+        }
+    }
+    .nameorange{
+        color: $bg-color-titulo-resaltado;
+        font-size: 44px;
+    }
+ }  
+    
+
+
+/*.imagenovideo{
+    width: 350px;
+}
+    &-image{
+        width: 100%;
+    }*/
+ 
 
 
