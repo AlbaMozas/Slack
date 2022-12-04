@@ -1,0 +1,12 @@
+/// MENÚ DE CABECERA PRINCIPAL ///
+
+
+.menu-principal{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #541554;
+}

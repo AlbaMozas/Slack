@@ -1,0 +1,61 @@
+
+
+.fotosmovil{
+    background-color: $bg-color-beige-fondo;
+
+    &-canales{
+        &_1{ 
+            padding-top: 30px;
+
+            &--foto{
+                width: 85%;
+            }
+        }
+       
+        &_2{    
+            margin:  20px 10px 0px 10px;
+
+            &--principal{
+                font-size: 32px;
+                
+            }
+            &--parrafo{
+                font-size: 18px;
+                margin: 10px 10px 20px 10px;
+            }
+            &--enlace{
+                font-size: 18px;
+                
+            }
+        } 
+        
+        &_3{
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 30px;
+            &--foto{
+
+                width: 85%;  
+            }
+        }
+
+        &_4{
+            margin:  20px 10px 0px 10px;
+            &--principal{
+                font-size: 32px;
+            }
+            &--parrafo{
+                font-size: 18px;
+                margin: 10px 10px 20px 10px;
+            }
+            &--enlace{
+                font-size: 18px;
+                
+            }
+
+        }
+         
+    
+    }
+         
+}

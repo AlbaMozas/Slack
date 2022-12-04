@@ -1,0 +1,26 @@
+
+
+.publi{ /*SEGUNDA SECCION BEIGE CON LOGOTIPOS*/
+    padding: 25px;
+    background-color: $bg-color-beige-fondo;
+
+    &-titulo{
+        color: black;
+        background-color: $bg-color-beige-fondo;
+    }
+    &-gallery{
+        
+        &_ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            padding: 10px;
+            align-content: flex-start;
+
+            &--logos{
+                max-height: 30px;
+            }
+        }
+    }
+}
