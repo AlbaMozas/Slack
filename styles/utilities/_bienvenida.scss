@@ -1,0 +1,55 @@
+.bienvenida{
+    background-color: $bg-color-fondo;
+    clip-path: ellipse(105% 100% at center top);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    &-tittle{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-weight: 700;
+    }
+
+    &-botones{
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+         &_b1{
+            color: $bg-color-fondo;
+            background-color: white; 
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            border: none;
+            border-radius: 4px;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+    
+         }
+
+         &_b2{
+            color: white;
+            background-color: rgba(0, 255, 255, 0);
+            margin-top: 10px;
+            margin-bottom: 60px;
+            padding: 20px;
+            border: none;
+            border-radius: 4px;
+            box-shadow: inset 0 0 0 1px white;
+            width: 90%;
+         }
+
+    }
+
+
+}
+
+
+

@@ -1,0 +1,84 @@
+.fotter{
+    padding: 50px 15px 0px 15px;
+
+    &-logo{
+        width: 200px;
+        padding-bottom: 30px;
+    }
+
+    &-menu{
+
+        &_div1{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            font-size: 14px;
+            font-weight: 700;
+            
+        }
+    }
+
+    &-linea{
+        height: 1px;
+        width: 95%;
+        background-color: #ebeaeb;
+        
+    }
+
+
+    &-lista{
+        padding-top: 20px;
+        &_list{
+            padding-bottom: 20px;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        &_lists{
+            padding-bottom: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            margin: 0px 5px 0px 5px;
+        }
+
+        &_listsd{
+            color: #0700ed;
+        }
+    }
+
+    &-redessociales{
+
+        &_uls{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+
+        &-logos{
+            width: 20px;
+        }
+        }
+    }
+
+    &-2022{
+        color: #454245;
+        font-size: 12px;
+        padding: 30px 0px 30px 0px;
+    }
+}
+
+
+
+
+
+p.fotter-lista_lists::before {
+    content: "🌐  ";
+}
+
+p.fotter-lista_lists::after {
+    content: "   ⌵";
+}
+
+p.fotter-lista_listsd::before {
+    content: "☁";
+}
+   

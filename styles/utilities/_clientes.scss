@@ -1,0 +1,49 @@
+
+.clientes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    &-video{
+
+        &_1{
+            width: 90%;
+        }
+
+    }
+
+    &-texto{
+        margin: 20px 10px 0px 10px;
+        padding: 2em;
+        &_cita{
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        &_name{
+            margin-top: 20px;
+            font-weight: 700;
+        }
+
+        &_puesto{
+            margin-bottom: 20px;
+        }
+        
+    }
+
+    &-promedio{
+        padding: 1em;
+        margin-top: 25px;
+        font-size: 13px;
+        color: #696969!important;
+        text-align: center!important;
+    }
+
+}
+
+a::after {
+    content: "→";
+  }
+
+
+  

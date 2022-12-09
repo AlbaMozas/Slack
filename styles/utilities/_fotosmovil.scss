@@ -4,9 +4,11 @@
     background-color: $bg-color-beige-fondo;
 
     &-canales{
+        padding-bottom: 50px;
+        
         &_1{ 
             padding-top: 30px;
-
+            padding-top: 15px;
             &--foto{
                 width: 85%;
             }
@@ -25,6 +27,7 @@
             }
             &--enlace{
                 font-size: 18px;
+                
                 
             }
         } 
